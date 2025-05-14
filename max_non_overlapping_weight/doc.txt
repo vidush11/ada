@@ -1,0 +1,6 @@
+We can also find the intervals who wieght sum is maximum by first maintaining two arrays
+1) if dp[i] is greater or dp[i-1]
+2) what is index i_
+
+then I can see for dp[n-1] if it was taken, then include it and go to dp[i_],
+if it was not then go to dp[n-2]

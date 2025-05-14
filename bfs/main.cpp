@@ -29,6 +29,7 @@ void bfs(vector<vector<int>> &graph, vector<int>& dist){
     }
     
 }
+
 int main(int argc, const char * argv[]) {
     vector<vector<int>> graph(6,vector<int>());
     graph[0].push_back(1);

@@ -1,0 +1,5 @@
+By DFS, use dp as follows- if a vertex is selected then min(subtree_of_children_taken, subtree_of_children_not taken)
+if a vertex is not selected then the subtree-of_children_taken
+
+Greedy approach- Select vertices v which are adjacent to min degree vertices take them do G-v and then repeat.
+

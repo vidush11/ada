@@ -1,0 +1,15 @@
+When you perform DFS in a directed graph, and assign numbers in decreasing order to vertices visited when there is no further vertex for it, you get a top sort order
+
+Each DAG has one source and sink, assign 'n' to sink, then do G-s and 'n-1' to new sink and so on, you get a top sort. //maintain outdegrees 0 vertices
+Similarly can do the above for starting from source assign '1' and then '2' and so on
+
+Can do the above two for a cyclic directed graph to see if the number if vertices visited is less than total then it is a cyclic graph.
+
+
+For an undirected graph->
+visit the vertices in dfs or bfs if you ever encounter a vertex again, it is cyclic graph
+Can do the same for directed graph too? No
+
+compute connected components also through bfs or dfs
+
+through bfs you can find min distances from start

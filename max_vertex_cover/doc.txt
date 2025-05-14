@@ -1,0 +1,3 @@
+For a tree, maintain a set with degrees 1, then add 's' to the maximal set, do G-{v} where v is the only vertex adjacent to s. You can do this by maintaing a visit array so that already visited vertices are not taken for adjacent vertex. After removing v take those with degree <=1 (there would always be one) and not select its neighbours.
+
+To do- without maintaing all the vertices with degrees 1 just starting by 1 vertex perform the algorithm

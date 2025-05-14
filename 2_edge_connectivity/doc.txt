@@ -1,0 +1,2 @@
+For an undirected graph, this finds bridge edge if any in graph by checking for back edges
+I used a stack based apporach, have also written a dfs based and used in Codeforces qn.

@@ -1,0 +1,2 @@
+This takes O(n**3) time, as approximately n**2 entries of the table, and minimum over n values therefore n**3 time complexity
+
